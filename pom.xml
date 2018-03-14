@@ -8,7 +8,7 @@
     <artifactId>unmanagedServices</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>managable-service</module>
+        <module>managable-api</module>
         <module>managable-impl</module>
     </modules>
 
