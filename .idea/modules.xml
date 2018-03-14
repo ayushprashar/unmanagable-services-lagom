@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/managable-api/managable-api.iml" filepath="$PROJECT_DIR$/managable-api/managable-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managable-impl/managable-impl.iml" filepath="$PROJECT_DIR$/managable-impl/managable-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unmanagedServices.iml" filepath="$PROJECT_DIR$/unmanagedServices.iml" />
+    </modules>
+  </component>
+</project>

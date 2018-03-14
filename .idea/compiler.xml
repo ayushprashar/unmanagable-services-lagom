@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="managable-api" />
+        <module name="managable-impl" />
+        <module name="managable-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="managable-api" target="1.8" />
+      <module name="managable-impl" target="1.8" />
+      <module name="managable-service" target="1.8" />
+      <module name="unmanagedServices" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
