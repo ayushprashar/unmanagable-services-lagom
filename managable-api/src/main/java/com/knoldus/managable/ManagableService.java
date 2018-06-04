@@ -14,9 +14,9 @@ public interface ManagableService extends Service {
     @Override
     default Descriptor descriptor() {
         return named("internal").withCalls(
-                restCall(GET, "/api/unknown",this::getData)
+                restCall(GET, "/api/unknown/internal",this::getData)
         ).withAutoAcl(true);
     }
 
-    ServiceCall<NotUsed,DataResponse> getData();
+    ServiceCall<NotUsed,Integer> getData();
 }
